@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* Global body style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* App title */
+.app-title {
+  text-align: center;
+  color: turquoise;
+  margin-bottom: 20px;
+}
+
+/* Container for forms and lists */
+.container {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+th {
+  background-color: #0d4f4f;
+  text-align: left;
+}
+
+/* Table rows */
+tr:hover {
+  background-color: #333;
+}
+
+/* Buttons */
+button {
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.edit {
+  background-color: turquoise;
+  margin-right: 5px;
+}
+
+button.delete {
+  background-color: #ff4d4d;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #222;
+  color: #fff;
+}
+
+form input::placeholder {
+  color: #bbb;
+}
+
+form button {
+  width: 120px;
+  align-self: flex-start;
+}
+
+.container form button {
+  background-color: #40E0D0; /* Turquoise */
+  color: #004d4d; /* Darker text for contrast */
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container form button:hover {
+  background-color: #38b2ac; /* Slightly darker turquoise on hover */
+}
